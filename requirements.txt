@@ -1,0 +1,6 @@
+dotenv>=0.9.9
+langchain>=0.3.27
+langchain-openai>=0.3.32
+langchain-text-splitters>=0.3.11
+langgraph>=0.6.6
+unstructured[pdf,image]>=0.18.14
