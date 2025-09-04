@@ -73,7 +73,7 @@ AI-Tutoring-System/
 
 1. **Clone and setup environment:**
    ```bash
-   cd AI-Tutor-Playground
+   cd AI-Tutoring-System
    source venv/bin/activate  # or create new: python -m venv venv
    ```
 
