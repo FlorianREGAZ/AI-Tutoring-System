@@ -23,7 +23,6 @@ class StageJudgeAgent:
         return SystemMessage(content=f"{STAGE_JUDGE_SYSTEM_PROMPT}\n# Current stage:\n{stage}\nReason: {reason}")
 
     def invoke(self, state: AITutorState):
-        print_state(state, info="Before StageJudgeAgent")
         history = state["history"]
         learning_stage_decision = state["learning_stage_decision"]
 

@@ -38,7 +38,6 @@ class PDFAssistantAgent:
         self.vector_store.add_documents(documents=splitted_documents)
 
     def invoke(self, state: AITutorState):
-        print_state(state, info="Before PDFAssistantAgent")
         history = state["history"]
         
         # Return empty context if no history or no documents in vector store

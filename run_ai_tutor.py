@@ -75,7 +75,6 @@ class AITutor:
                 break
             response = self._call_graph(user_input)
             print(f"AI Tutor: {response.content}")
-            print_state(self.graph.get_state(self.config).values, info="After graph invoke")
 
 
 if __name__ == "__main__":

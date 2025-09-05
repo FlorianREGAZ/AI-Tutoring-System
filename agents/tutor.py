@@ -46,8 +46,6 @@ class TutorAgent:
         ).strip())
 
     def invoke(self, state: AITutorState):
-        print_state(state, info="Before TutorAgent and after StageJudgeAgent")
-
         history = state["history"]
         pdf_context = state["pdf_context"]
 
